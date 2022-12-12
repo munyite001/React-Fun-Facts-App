@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# React Fun Facts Static Webpage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple static webpage built using the React Front-end Framework, project 1 
+of the [scrimba React course](https://scrimba.com/learn/learnreact)
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+  - [Pre-Requisites](#Pre-Requisites)
+  - [Setup](#Setup)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
 
-### `npm start`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
+The project is part of Scrimba's course on the React course for beginners. It is a simple static website, beginner-friendly, meant to get your feat wet with React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+![Screenshot](./Screenshots/Screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pre-Requisites
+- ES6 Javascript Knowledge
+- node
+- npm
+- vite(optional)
+- Basic Html/Css knowledge
+- A code editor eg VS code
+- git
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
+##### Node
+Make sure that you have the latest version of node installed
+You can confirm by running the command `node -v` from the terminal
+If you do not have it installed, kindly dollow the instructions on the [official node website](https://nodejs.org/en/), to learn how to get started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### npm
+Make sure that you have npm (node package manager) installed. It should be installed by default, when installing node js.
+You can confirm by running the command `npm -v` from the terminal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Vite
+Vite, is an alternative tool that we'll use to create our react app. Main reason to use it, is the fact that it is 10X more faster than create-react-app.
+You can read more about Vite from their [website](https://vitejs.dev/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
+This are the steps to follow if you want to create your own project from scratch
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you have made sure that you have node js and npm installed, open your code editor(vs code) and create a new folder for your project. The name of the folder should be in all lowercase, else it will result in an error when creating your react app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Do not _cd_ into your project folder just yet, next run the command `npx create-react-app {projectname}` replace _{projectname}_ with the name of your project. It will install a few packages react, react-dom, and react-scripts, which are all necessary to run your react app.
+Once that is done, cd into the project folder, and run the command `npm start` to start your project via local Host
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+create-react-app takes quite some time depending on your computing power, the alternative, is vite
+To create your react app using vite
+- run the command `npm create vite@react {projectname}`
+It will prompt you to select a framework, so choose _React_
+Then it will prompt you to select a variant, eg react with typescript or vanilla js react
+so we'll choose vanilla js
+Once that is done, it will give you a couple of instructions
+    _cd project_
+    _npm install_
+    _npm run-dev_
+Just feed in the commands one at a time
+That's it
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##### Clonig the project
+To clone the project, you still have to have node and npm installed, in order to run the files locally
+But simply open the terminal, and cd into the directry where you want to clone the repo
+Then run the command `git clone https://github.com/munyite001/React-Fun-Facts-App.git`
+This will clone the Repo to your local machine
+To run the app, cd into the project folder and run the command `npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Live Site: [https://react-fun-facts-static.netlify.app/](https://react-fun-facts-static.netlify.app/)
+- Figma Templae: [https://www.figma.com/file/LN2KRVW5a5AMPF4MUTDi3F/ReactFacts-(Copy)?node-id=0%3A4&t=LHcOQQ0qT1H9qysW-0](React Fun Facts Template)
+Github Repo [https://github.com/munyite001/React-Fun-Facts-App](https://github.com/munyite001/React-Fun-Facts-App)
 
-### Analyzing the Bundle Size
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- React
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github - [@munyite002](https://github.com/munyite001)
+- Frontend Mentor - [@munyite001](https://www.frontendmentor.io/profile/munyite001)
+- Twitter - [@emunyite](https://www.twitter.com/emunyite)
