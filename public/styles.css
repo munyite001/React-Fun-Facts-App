@@ -1,0 +1,117 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#root {
+  background-color: #282D35;
+  width: 80%;
+  max-width: 550px;
+  margin: 5rem auto;
+}
+
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #21222A;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.logo-container {
+  width: auto;
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.react-logo-container {
+  width: 3rem;
+}
+
+.react-logo {
+  width: 100%;
+}
+
+.logo-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: #61DAFB;
+}
+
+.ProjectTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/* MAIN */
+.main {
+  width: 100%;
+  border: 1px solid transparent;
+  background-image: url(./react.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  margin: 3rem 0 1rem 2rem;
+}
+
+.facts-list {
+  margin: 2rem 0 5rem 3rem;
+  list-style-type: none;
+  max-width: 390px;
+}
+
+.facts-list li {
+  margin: 1rem 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+}
+
+/* Change color of bullets */
+.facts-list li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61DAFB; /* Change the color */
+  font-weight: bold; /* to make it bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  font-size: 1.5rem;
+  width: 1.3rem; /* Also needed for space (tweak if needed) */
+}
+
