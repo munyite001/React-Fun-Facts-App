@@ -20,7 +20,6 @@ export default function Header(props) {
           type="range" 
           name="toggle-theme" 
           min={1} max={2}
-          style={{ "--thumb-background": "#21222A"}}
           onChange={handleChange}
           />
         </div>
